@@ -1,4 +1,4 @@
-package searchassignment;
+package AStar;
 
 import java.io.File;
 import java.util.Scanner;
