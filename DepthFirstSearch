@@ -1,4 +1,4 @@
-package com.company.Main;
+package DepthFirstSearch;
 // Java program to print DFS traversal from a given given graph
 import java.io.*;
 import java.util.*;
