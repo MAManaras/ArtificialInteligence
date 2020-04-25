@@ -16,29 +16,7 @@ public class SearchAssignment {
         // Reading Input File 
         ReadFile();
         
-        // Depth First Search Call
-        DFS dfs = new DFS();
-        dfs.depthFirstSearch(grid, visited, new ArrayList<Pair>(), n, m, i, j, end_i, end_j);
-        dfs.printResult(); 
-        dfs.writeFile();
-        
-        // Breadh First Search Call
-        BFS bfs = new BFS();
-        bfs.breadthFirstSearch(grid, visited, n, m, i, j, end_i, end_j);
-        bfs.printResult();  
-        bfs.writeFile();
-        
-        // Iterative Deepening Search Call
-        IDS ids = new IDS();
-        ids.iterativeDeepeningSearch(grid, visited, n, m, i, j, end_i, end_j);
-        ids.printResult();
-        ids.writeFile();
-        
-        // Greedy Best First Search Call
-        Greedy greedy = new Greedy();
-        greedy.GreedyBestFirst(grid, visited, n, m, i, j, end_i, end_j);
-        greedy.printResult();
-        greedy.writeFile();
+    
         
         // A* Search Call
         AStar astar = new AStar();
